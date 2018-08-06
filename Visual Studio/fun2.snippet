@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>fun2</Title>
+			<Shortcut>fun2</Shortcut>
+			<Description>Code snippet for function with 2 parameters</Description>
+			<Author>UntappedKegg</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>visibility</ID>
+					<ToolTip>Visibility modifier</ToolTip>
+					<Default>private</Default>
+				</Literal>
+				<Literal>
+					<ID>returntype</ID>
+					<ToolTip>Return type</ToolTip>
+					<Default>void</Default>
+				</Literal>
+				<Literal>
+					<ID>name</ID>
+					<ToolTip>Function name</ToolTip>
+					<Default>MyFunction</Default>
+				</Literal>
+				<Literal>
+					<ID>param0Type</ID>
+					<ToolTip>Parameter type</ToolTip>
+					<Default>int</Default>
+				</Literal>
+				<Literal>
+					<ID>param0name</ID>
+					<ToolTip>Parameter name</ToolTip>
+					<Default>foo</Default>
+				</Literal>
+				<Literal>
+					<ID>param1Type</ID>
+					<ToolTip>Parameter type</ToolTip>
+					<Default>int</Default>
+				</Literal>
+				<Literal>
+					<ID>param1name</ID>
+					<ToolTip>Parameter name</ToolTip>
+					<Default>bar</Default>
+				</Literal>
+			</Declarations>			
+			<Code Language="csharp"><![CDATA[
+	$visibility$ $returntype$ $name$($param0Type$ $param0name$, $param1Type$ $param1name$)
+	{
+		
+	}
+	$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
